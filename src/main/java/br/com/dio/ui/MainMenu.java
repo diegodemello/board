@@ -65,7 +65,7 @@ public class MainMenu {
 
         System.out.println("Informe o nome da coluna de cancelamento do board");
         var cancelColumnName = scanner.next();
-        var cancelColumn = createColumn(initialColumnName, CANCEL, additionalColumns + 1);
+        var cancelColumn = createColumn(initialColumnName, CANCEL, additionalColumns + 2);
         columns.add(cancelColumn);
 
         entitiy.setBoardColumns(columns);
